@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+}
+
+.container {
+    text-align: center;
+    color: #6b1515;
+    width: 100%;
+    padding: 5rem 0;
+    background-color: #45dca0;
+    background-size: cover;
+    display: grid;
+    align-content: center;
+    
+}
+
+.container h1 {
+    margin-bottom: 45px;
+}
+.container h6 {
+    margin-bottom: 15px;
+}
+
+
+.form-wrapper {
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
+    background: transparent;
+    border: 1px solid #63050535;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(177, 41, 41, 0.182);
+    padding: 10px;
+}
+
+.form-group {
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.form-group label {
+    font-weight: 400;
+}
+
+.form-group input,
+option {
+    font-weight: 200;
+}
+
+.form-group input {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #872a2a;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(102, 18, 18, 0.803);
+    outline: rgb(126, 90, 37);
+}
+
+.form-group input[type="radio"] {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.form-group label[for="name"],
+.form-group label[for="email"] {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.box input {
+    width: auto;
+}
+
+#hear {
+    margin-right: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.form-group select {
+    outline: none;
+    border: 1px solid #240cae;
+    cursor: pointer;
+    border-radius: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    padding: 5px;
+    background-color:bisque;
+    color: #660590; 
+}
+
+.form-group select option {
+    background-color: #a5cf0c;
+    color: #000;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    background: whitesmoke;
+    border-radius: 15px;
+    color: #740606;
+    padding: 10px;
+}
+
+button {
+    width: 30%;
+    padding: 6px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    border: 1px solid #fff;
+    transition: all 0.2s;
+    color: #054457;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf7e52;
+    border-color: #e65b00;
+}
+
+#writehere{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
